@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co:UniLav xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co="http://servizi.lavoro.gov.it/unilav" codiceComunicazione="0000000000000000" dataInvio="2010-02-24T17:09:54" versione="CO140110R1" assunzioneForzaMaggiore="NO" e-mailDelegato="mail@mail.it" protocollo="00000035">
+	<co:DatoreLavoro codiceFiscale="10000000009" denominazione="Azienda s.p.a.">
+    <co:DatoreAnagraficaCompleta>
+      <co:cognome>Rossi</co:cognome>
+      <co:nome>Mario</co:nome>
+      <co:cittadinanza>326</co:cittadinanza>
+      <co:sesso>M</co:sesso>
+      <co:nascita>
+        <co:comune>Z219</co:comune>
+        <co:data>1977-12-20</co:data>
+      </co:nascita>
+    </co:DatoreAnagraficaCompleta>
+    <co:DatoreDatiExtraCE dataScadenzaPS="2012-05-22" motivoPermesso="LAVAU" tipoDocumento="1" questura="017" />
+		<co:SedeLegale>
+			<co:Comune>C351</co:Comune>
+			<co:cap>95100</co:cap>
+			<co:Indirizzo>VIA ROSSI 5</co:Indirizzo>
+			<co:telefono>0000000</co:telefono>
+		</co:SedeLegale>
+		<co:SedeLavoro>
+			<co:Comune>C351</co:Comune>
+			<co:cap>95100</co:cap>
+			<co:Indirizzo>VIA ROSSI 5</co:Indirizzo>
+			<co:telefono>000000</co:telefono>
+		</co:SedeLavoro>
+		<co:Settore>49.41.00</co:Settore>
+		<co:PubblicaAmministrazione>SI</co:PubblicaAmministrazione>
+	</co:DatoreLavoro>
+	<co:Lavoratore>
+		<co:AnagraficaCompleta>
+			<co:cognome>GIALLI</co:cognome>
+			<co:nome>CARLA</co:nome>
+			<co:codice-fiscale>GLLCRL82A59C351J</co:codice-fiscale>
+			<co:cittadinanza>000</co:cittadinanza>
+			<co:sesso>F</co:sesso>
+			<co:nascita>
+				<co:comune>C351</co:comune>
+				<co:data>1982-01-19</co:data>
+			</co:nascita>
+		</co:AnagraficaCompleta>
+	<co:extraCE dataScadenzaPS="2099-12-31" tipoDocumento="5" motivoPermesso="FAMIG">
+		<co:ModelloQ>
+			<co:SussistenzaSistemazioneAlloggiativa>SI</co:SussistenzaSistemazioneAlloggiativa>
+			<co:ImpegnoDatorePagamentoRimpatrio>SI</co:ImpegnoDatorePagamentoRimpatrio>
+		</co:ModelloQ>
+    </co:extraCE>
+		<co:IndirizzoLavoratore>
+			<co:Comune>C351</co:Comune>
+			<co:cap>95100</co:cap>
+			<co:Indirizzo>VIA XX SETTEMBRE</co:Indirizzo>
+		</co:IndirizzoLavoratore>
+		<co:LivelloIstruzione>90</co:LivelloIstruzione>
+	</co:Lavoratore>
+	<co:Trasformazione dataTrasformazione="2012-05-01" codiceTrasformazione="TL">
+		<co:Contratto assunzioneLegge68="NO" lavoroInAgricoltura="NO" lavoroStagionale="NO" lavInMobilita="NO" socioLavoratore="NO" entePrevidenziale="01" TipologiaContrattuale="A.01.00" dataInizio="2012-01-09" dataFine="2012-05-31">
+			<co:ccnl>057</co:ccnl>
+			<co:livelloInquadramento>6</co:livelloInquadramento>
+			<co:tipoOrario codice="F"/>
+			<co:qualificaProfessionale>4.1.1.2.0.6</co:qualificaProfessionale>
+			<co:RetribuzioneCompenso>600</co:RetribuzioneCompenso>
+			<co:PatINAIL>183756274</co:PatINAIL>
+		</co:Contratto>
+		<co:SedeLavoroPrec>
+			<co:Comune>F158</co:Comune>
+			<co:Indirizzo>VIA ROSSI 5</co:Indirizzo>
+		</co:SedeLavoroPrec>
+	</co:Trasformazione>
+	<co:TipoComunicazione>01</co:TipoComunicazione>
+</co:UniLav>

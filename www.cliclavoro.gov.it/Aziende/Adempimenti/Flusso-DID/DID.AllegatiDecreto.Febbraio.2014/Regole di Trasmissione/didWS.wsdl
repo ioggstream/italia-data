@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="servizicoap" targetNamespace="http://servizi.lavoro.gov.it/servizicoap" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:intf="http://servizi.lavoro.gov.it/servizicoap" xmlns:impl="http://servizi.lavoro.gov.it/servizicoap" xmlns:types="http://servizi.lavoro.gov.it/servizicoap/types" xmlns:apachesoap="http://xml.apache.org/xml-soap">
+  <wsdl:types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="http://servizi.lavoro.gov.it/servizicoap/types" xmlns:types="http://servizi.lavoro.gov.it/servizicoap/types" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+			<xsd:complexType name="richiesta_invioDID_Type">
+				<xsd:sequence>
+					<xsd:element name="DID" type="xsd:string">
+						<xsd:annotation>
+							<xsd:appinfo>http://servizi.lavoro.gov.it/servizicoap/types/Did.xsd</xsd:appinfo>
+						</xsd:annotation>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:element name="invioDID" type="types:richiesta_invioDID_Type"/>
+			<xsd:complexType name="risposta_invioDID_Type">
+				<xsd:sequence>
+					<xsd:element name="Esito">
+						<xsd:simpleType>
+							<xsd:restriction base="xsd:string">
+								<xsd:enumeration value="OK"/>
+								<xsd:enumeration value="KO"/>
+							</xsd:restriction>
+						</xsd:simpleType>
+					</xsd:element>
+					<xsd:element name="MessaggioErrore" type="xsd:string"/>
+				</xsd:sequence>
+			</xsd:complexType>
+			<xsd:element name="risposta_invioDID" type="types:risposta_invioDID_Type"/>
+		</xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="risposta_invioDID_Msg">
+    <wsdl:part name="parameters" element="types:risposta_invioDID"/>
+  </wsdl:message>
+  <wsdl:message name="richiesta_invioDID_Msg">
+    <wsdl:part name="parameters" element="types:invioDID"/>
+  </wsdl:message>
+  <wsdl:portType name="servizicoapWS">
+    <wsdl:operation name="invioDID">
+      <wsdl:input message="intf:richiesta_invioDID_Msg"/>
+      <wsdl:output message="intf:risposta_invioDID_Msg"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="servizicoapWSSoapBinding" type="intf:servizicoapWS">
+    <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="invioDID">
+      <wsdlsoap:operation/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="servizicoapWSService">
+    <wsdl:port name="servizicoapWS" binding="intf:servizicoapWSSoapBinding">
+      <wsdlsoap:address location=""/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co:VarDatori xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co="http://servizi.lavoro.gov.it/vardat" dataInvio="2013-01-15T17:40:40" codiceComunicazione="0000000000000000" e-mailDelegato="mail@mail.it" versione="CO140110R1" protocollo="00000000">
+	<co:DatoreAttuale codiceFiscale="10000000009" denominazione="Azienda s.p.a.">
+    <co:DatoreAnagraficaCompleta SoggiornanteInItalia="SI">
+      <co:cognome>Rossi</co:cognome>
+      <co:nome>Mario</co:nome>
+      <co:cittadinanza>326</co:cittadinanza>
+      <co:sesso>M</co:sesso>
+      <co:nascita>
+        <co:comune>Z219</co:comune>
+        <co:data>1977-12-20</co:data>
+      </co:nascita>
+    </co:DatoreAnagraficaCompleta>
+    <co:DatoreDatiExtraCE dataScadenzaPS="2015-05-22" motivoPermesso="LAVAU" tipoDocumento="1" questura="017" />
+		<co:Sede>
+			<co:Comune>C351</co:Comune>
+			<co:cap>95100</co:cap>
+			<co:Indirizzo>VIA ROSSI 5</co:Indirizzo>
+			<co:telefono>0000000</co:telefono>
+		</co:Sede>
+		<co:Settore>49.41.00</co:Settore>
+		<co:PubblicaAmministrazione>NO</co:PubblicaAmministrazione>
+	</co:DatoreAttuale>
+	<co:TipoComunicazione>01</co:TipoComunicazione>
+	<co:VariazioneRagioneSociale denominazionePrecedente="AZIENDA S.R.L." dataVariazione="2013-01-05"/>
+</co:VarDatori>

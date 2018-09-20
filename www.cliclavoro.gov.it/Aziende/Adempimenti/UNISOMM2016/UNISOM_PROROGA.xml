@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co:UniSomm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co="http://servizi.lavoro.gov.it/unisomm" dataInvio="2013-01-15T12:31:24" codiceComunicazione="0000000000000000" e-mailDelegato="mail@mail.it" versione="CO130110R1" protocollo="00000000">
+	<co:AgenziaSomministrazione codiceFiscale="20000000008" numeroIscrizioneAlbo="111111111111/11/1111" denominazione="Agenzia Work" agenziaestera="NO">
+    <co:DatoreAnagraficaCompleta SoggiornanteInItalia="SI">
+      <co:cognome>Rossi</co:cognome>
+      <co:nome>Luigi</co:nome>
+      <co:cittadinanza>605</co:cittadinanza>
+      <co:sesso>M</co:sesso>
+      <co:nascita>
+        <co:comune>Z602</co:comune>
+        <co:data>1977-02-19</co:data>
+      </co:nascita>
+    </co:DatoreAnagraficaCompleta>
+    <co:DatoreDatiExtraCE dataScadenzaPS="2014-03-06" motivoPermesso="ASIL2" tipoDocumento="1" questura="017" />
+		<co:SedeLavoro>
+			<co:Comune>A013</co:Comune>
+			<co:cap>67100</co:cap>
+			<co:Indirizzo>VIA GARIBALDI</co:Indirizzo>
+			<co:telefono>1541215</co:telefono>
+		</co:SedeLavoro>
+		<co:SedeLegale>
+			<co:Comune>F205</co:Comune>
+			<co:cap>20100</co:cap>
+			<co:Indirizzo>VIA VERDI 7</co:Indirizzo>
+			<co:telefono>026764</co:telefono>
+			<co:fax>426379</co:fax>
+		</co:SedeLegale>
+		<co:RapportoAgenziaSomm dataInizioSomm="2013-03-01" entePrevidenziale="01" TipologiaContrattuale="A.05.02" lavInMobilita="NO" numeroMatricola="1111111111" numeroAgenziaSomm="1234567" dataFineSomm="2013-04-15" />
+	</co:AgenziaSomministrazione>
+	<co:Lavoratore>
+		<co:AnagraficaCompleta>
+			<co:cognome>VERDI</co:cognome>
+			<co:nome>MARTA</co:nome>
+			<co:codice-fiscale>VRDMRT74T56Z330I</co:codice-fiscale>
+			<co:cittadinanza>436</co:cittadinanza>
+			<co:sesso>F</co:sesso>
+			<co:nascita>
+				<co:comune>Z330</co:comune>
+				<co:data>1974-12-16</co:data>
+			</co:nascita>
+		</co:AnagraficaCompleta>
+    <co:extraCE dataScadenzaPS="2015-01-25" motivoPermesso="SOINV" tipoDocumento="6" numeroDocumento="12345" />
+		<co:IndirizzoLavoratore>
+			<co:Comune>A013</co:Comune>
+			<co:cap>85010</co:cap>
+			<co:Indirizzo>VIA ROSSI 5</co:Indirizzo>
+		</co:IndirizzoLavoratore>
+		<co:LivelloIstruzione>80</co:LivelloIstruzione>
+	</co:Lavoratore>
+	<co:DittaUtilizzatrice codiceFiscale="50000000005" denominazione="IL FRUTTETO" numeroContrattoSomm="111111111" dataInizioContrattoSomm="2013-03-01" dataFineContrattoSomm="2013-04-15">
+		<co:SedeLavoro>
+			<co:Comune>A013</co:Comune>
+			<co:cap>20081</co:cap>
+			<co:Indirizzo>PIAZZA GRANDE 3</co:Indirizzo>
+			<co:telefono>54321</co:telefono>
+		</co:SedeLavoro>
+		<co:SedeLegale>
+			<co:Comune>A013</co:Comune>
+			<co:cap>85010</co:cap>
+			<co:Indirizzo>CORSO FIRENZE 15</co:Indirizzo>
+			<co:telefono>12345</co:telefono>
+		</co:SedeLegale>
+		<co:DittaUtilizzatriceEsteraOperanteInItalia>NO</co:DittaUtilizzatriceEsteraOperanteInItalia>
+		<co:Settore>01.25.00</co:Settore>
+		<co:PubblicaAmministrazione>NO</co:PubblicaAmministrazione>
+		<co:InizioContratto>
+			<co:Inizio dataFineMissione="2013-04-15" dataInizioMissione="2013-03-10" descrizioneAttivita="descrizione" rischioAsbestosiSilicosi="NO" voceTariffa_1="1111" lavoroInAgricoltura="NO">
+				<co:PatINAIL>64564564</co:PatINAIL>
+				<co:tipoOrario codice="F" />
+				<co:qualificaProfessionale>3.3.1.2.1.0</co:qualificaProfessionale>
+				<co:ccnl>125</co:ccnl>
+				<co:livelloInquadramento>1</co:livelloInquadramento>
+			</co:Inizio>
+		</co:InizioContratto>
+	</co:DittaUtilizzatrice>
+	<co:DatiVariazione codiceVariazione="2.02">
+		<co:DatiProroga dataFineProroga="2013-04-15" />
+	</co:DatiVariazione>
+	<co:TipoComunicazione>01</co:TipoComunicazione>
+</co:UniSomm>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co:UniSomm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co="http://servizi.lavoro.gov.it/unisomm" dataInvio="2010-03-29T17:56:41" codiceComunicazione="0000000000000000" e-mailDelegato="prova@prova.it" versione="CO130110R1" protocollo="00000000">
+	<co:AgenziaSomministrazione codiceFiscale="90000000001" numeroIscrizioneAlbo="000000000011/11/2000" denominazione="prova"  agenziaestera="NO">
+    <co:DatoreAnagraficaCompleta SoggiornanteInItalia="SI">
+      <co:cognome>Rossi</co:cognome>
+      <co:nome>Luigi</co:nome>
+      <co:cittadinanza>605</co:cittadinanza>
+      <co:sesso>M</co:sesso>
+      <co:nascita>
+        <co:comune>Z602</co:comune>
+        <co:data>1977-02-19</co:data>
+      </co:nascita>
+    </co:DatoreAnagraficaCompleta>
+    <co:DatoreDatiExtraCE dataScadenzaPS="2015-03-06" motivoPermesso="ASIL2" tipoDocumento="1" questura="017" />
+		<co:SedeLavoro>
+			<co:Comune>H501</co:Comune>
+			<co:cap>00100</co:cap>
+			<co:Indirizzo>VIA ROSSI 5</co:Indirizzo>
+			<co:telefono>0000000</co:telefono>
+		</co:SedeLavoro>
+		<co:SedeLegale>
+			<co:Comune>H501</co:Comune>
+			<co:cap>00100</co:cap>
+			<co:Indirizzo>VIA ROSSI 5</co:Indirizzo>
+			<co:telefono>0000000</co:telefono>
+		</co:SedeLegale>
+		<co:RapportoAgenziaSomm dataInizioSomm="2012-03-01" entePrevidenziale="01" TipologiaContrattuale="A.01.00" lavInMobilita="NO" numeroMatricola="0000000000" numeroAgenziaSomm="1111111111"/>
+	</co:AgenziaSomministrazione>
+	<co:Lavoratore>
+		<co:AnagraficaCompleta>
+			<co:cognome>VERDI</co:cognome>
+			<co:nome>MARTA</co:nome>
+			<co:codice-fiscale>VRDMRT74T56Z330I</co:codice-fiscale>
+			<co:cittadinanza>436</co:cittadinanza>
+			<co:sesso>F</co:sesso>
+			<co:nascita>
+				<co:comune>Z330</co:comune>
+				<co:data>1974-12-16</co:data>
+			</co:nascita>
+		</co:AnagraficaCompleta>
+    <co:extraCE dataScadenzaPS="2015-01-25" motivoPermesso="SOINV" tipoDocumento="6" numeroDocumento="12345" />
+		<co:IndirizzoLavoratore>
+			<co:Comune>H501</co:Comune>
+			<co:cap>00100</co:cap>
+			<co:Indirizzo>VIA BIANCHI 1</co:Indirizzo>
+		</co:IndirizzoLavoratore>
+		<co:LivelloIstruzione>40</co:LivelloIstruzione>
+	</co:Lavoratore>
+	<co:DittaUtilizzatrice codiceFiscale="50000000005" denominazione="denominazione" numeroContrattoSomm="333333333" dataInizioContrattoSomm="2012-03-01">
+		<co:SedeLavoro>
+			<co:Comune>H501</co:Comune>
+			<co:cap>00100</co:cap>
+			<co:Indirizzo>VIA VERDI 3</co:Indirizzo>
+			<co:telefono>06123456789</co:telefono>
+		</co:SedeLavoro>
+		<co:SedeLegale>
+			<co:Comune>H501</co:Comune>
+			<co:cap>00100</co:cap>
+			<co:Indirizzo>VIA VERDI 3</co:Indirizzo>
+			<co:telefono>06123456789</co:telefono>
+		</co:SedeLegale>
+		<co:DittaUtilizzatriceEsteraOperanteInItalia>NO</co:DittaUtilizzatriceEsteraOperanteInItalia>
+		<co:Settore>56.10.20</co:Settore>
+		<co:PubblicaAmministrazione>NO</co:PubblicaAmministrazione>
+		<co:InizioContratto>
+			<co:Inizio dataFineMissione="2013-12-26" dataInizioMissione="2012-03-01" descrizioneAttivita="descrizione" rischioAsbestosiSilicosi="NO" voceTariffa_1="1111" lavoroInAgricoltura="NO">
+				<co:PatINAIL>64564564</co:PatINAIL>
+				<co:tipoOrario codice="F" />
+				<co:qualificaProfessionale>5.2.2.1.0.15</co:qualificaProfessionale>
+				<co:ccnl>015</co:ccnl>
+				<co:livelloInquadramento>3</co:livelloInquadramento>
+			</co:Inizio>
+		</co:InizioContratto>
+	</co:DittaUtilizzatrice>
+	<co:DatiVariazione codiceVariazione="4.01">
+		<co:DatiCessazione codiceCausa="LA" dataCessazione="2013-01-15" />
+	</co:DatiVariazione>
+	<co:TipoComunicazione>01</co:TipoComunicazione>
+</co:UniSomm>
+
+
+
+

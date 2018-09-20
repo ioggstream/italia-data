@@ -1,0 +1,50 @@
+﻿<UniLav xmlns="http://servizi.lavoro.gov.it/unilav" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" assunzioneForzaMaggiore="NO" codiceComunicazione="0603716200090015" dataInvio="2016-02-05T10:12:54.750" delegato="" e-mailDelegato="" protocollo="00090015" tipoDelegato="011" versione="CO160201R1">
+  <DatoreLavoro codiceFiscale="" denominazione="">
+    <SedeLegale>
+      <Comune>A944</Comune>
+      <cap>40132</cap>
+      <Indirizzo>VIA C. DUCATI N.3</Indirizzo>
+      <e-mail></e-mail>
+      <telefono></telefono>
+      <fax></fax>
+    </SedeLegale>
+    <SedeLavoro>
+      <Comune>A944</Comune>
+      <cap>40132</cap>
+      <Indirizzo>VIA C. DUCATI N. 3</Indirizzo>
+      <e-mail></e-mail>
+      <telefono></telefono>
+      <fax></fax>
+    </SedeLavoro>
+    <Settore>30.91.12</Settore>
+    <PubblicaAmministrazione>NO</PubblicaAmministrazione>
+  </DatoreLavoro>
+  <Lavoratore>
+    <AnagraficaCompleta>
+      <cognome></cognome>
+      <nome></nome>
+      <codice-fiscale></codice-fiscale>
+      <cittadinanza>000</cittadinanza>
+      <sesso>M</sesso>
+      <nascita>
+        <comune>D548</comune>
+        <data>1968-08-07</data>
+      </nascita>
+    </AnagraficaCompleta>
+    <IndirizzoLavoratore>
+      <Comune>C469</Comune>
+      <cap>44041</cap>
+      <Indirizzo>VIA CHIESA N.33</Indirizzo>
+    </IndirizzoLavoratore>
+    <LivelloIstruzione>30</LivelloIstruzione>
+  </Lavoratore>
+  <InizioRapporto TipologiaContrattuale="A.02.00" assunzioneObbligatoria="NO" codiceEntePrevidenziale="0" dataFine="2016-04-30" dataInizio="2016-02-15" entePrevidenziale="01" lavInMobilita="NO" lavoroInAgricoltura="NO" lavoroStagionale="NO" socioLavoratore="NO">
+    <ccnl>113</ccnl>
+    <livelloInquadramento>3</livelloInquadramento>
+    <tipoOrario codice="F" />
+    <qualificaProfessionale>7.2.7.1.0.7</qualificaProfessionale>
+    <RetribuzioneCompenso>26209</RetribuzioneCompenso>
+    <PatINAIL>92585581</PatINAIL>
+  </InizioRapporto>
+  <TipoComunicazione>01</TipoComunicazione>
+</UniLav>

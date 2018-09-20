@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="ListaDID">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="IdComunicazione" type="Max_40_Caratteri" minOccurs="1"/>
+				<xs:element name="DataInvio" type="xs:date" minOccurs="1"/>		
+				<xs:element name="DID" minOccurs="1" maxOccurs="1">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="TipoOperazione" type="Max_1_Carattere" minOccurs="1"/>
+						<xs:element name="CodiceFiscale" type="Codice_Fiscale" minOccurs="1"/>
+						<xs:element name="DataDichiarazione" type="xs:date" minOccurs="1"/>
+						<xs:element name="CodiceUnivocoCPI" type="CodiceCPI" minOccurs="1"/>                    
+						<xs:element name="Protocollo" type="ProtocolloINPS" minOccurs="1"/>
+						<xs:element name="Telefono" type="Max_20_Caratteri" minOccurs="0"/>
+						<xs:element name="Cellulare" type="Max_20_Caratteri" minOccurs="0"/>
+						<xs:element name="Email" type="EMail" minOccurs="0"/>
+						<xs:element name="DataInizioDisoccupazione" type="xs:date" minOccurs="0"/>
+						<xs:element name="DenominazioneAzienda" type="Max_250_Caratteri"  minOccurs="0"/>
+						<xs:element name="CodiceFiscalePIVAUltimaAzienda" type="Max_16_Caratteri" minOccurs="0"/>
+						<xs:element name="UltimaQualifica" type="Max_250_Caratteri" minOccurs="0"/>
+						<xs:element name="DataInizioAttivitaParaSub" type="xs:date" minOccurs="0"/>
+						<xs:element name="RedditoPrevParaSub" type="Decimale_10" minOccurs="0"/>
+						<xs:element name="RedditoLavoroSubordinato" type="Decimale_10" minOccurs="0"/>						
+					</xs:sequence>
+				</xs:complexType>
+				</xs:element>	
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="Tipo_Operazione">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="I"/>
+			<xs:enumeration value="U"/>
+			<xs:enumeration value="D"/>
+			<?INSERT?>
+			<?UPDATE?>
+			<?DELETE?>
+		</xs:restriction>
+	</xs:simpleType>
+  <xs:simpleType name="Codice_Fiscale">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{6}[0-9LMNPQRSTUV]{2}[A-Z][0-9LMNPQRSTUV]{2}[A-Z][0-9LMNPQRSTUV]{3}[A-Z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+	<xs:simpleType name="CodiceCPI">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{1}[0-9]{3}[A-Z]{1}[0-9]{6}"/>
+    </xs:restriction>
+  </xs:simpleType>
+	
+	<xs:simpleType name="Max_40_Caratteri">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="40" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+  <xs:simpleType name="Max_250_Caratteri">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="250" />
+	</xs:restriction>
+	</xs:simpleType>
+	
+  <xs:simpleType name="ProtocolloINPS">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="28" />
+		</xs:restriction>
+	</xs:simpleType>
+  
+  <xs:simpleType name="Max_20_Caratteri">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="20" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Max_1_Carattere">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="1" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="EMail">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="80"/>
+      <xs:pattern value="([A-Za-z0-9!#-'\*\+\-/=\?\^_`\{-~]+(\.[A-Za-z0-9!#-'\*\+\-/=\?\^_`\{-~]+)*@[A-Za-z0-9!#-'\*\+\-/=\?\^_`\{-~]+(\.[A-Za-z0-9!#-'\*\+\-/=\?\^_`\{-~]+)*)?"/>
+    </xs:restriction>
+  </xs:simpleType>
+ 
+  <xs:simpleType name ="Decimale_10">
+    <xs:restriction base="xs:decimal">
+      <xs:fractionDigits value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+	<xs:simpleType name="Partita_IVA">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{11}" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="Max_16_Caratteri">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="16" />
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

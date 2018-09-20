@@ -1,0 +1,91 @@
+﻿<co:VarDatori xmlns:co="http://servizi.lavoro.gov.it/vardat" codiceComunicazione="1704816302620662" dataInvio="2016-02-05T09:57:44" delegato="" tipoDelegato="006" versione="CO160201R1" protocollo="02620662" e-mailDelegato="">
+  <co:DatoreAttuale codiceFiscale="" denominazione="">
+    <co:Sede>
+      <co:Comune>G999</co:Comune>
+      <co:cap>59100</co:cap>
+      <co:Indirizzo>GISEPPE PAOLINI 6</co:Indirizzo>
+      <co:e-mail></co:e-mail>
+      <co:telefono></co:telefono>
+    </co:Sede>
+    <co:Settore>82.99.99</co:Settore>
+    <co:PubblicaAmministrazione>NO</co:PubblicaAmministrazione>
+  </co:DatoreAttuale>
+  <co:TipoComunicazione>01</co:TipoComunicazione>
+  <co:TrasferimentoAzienda codiceTrasferimento="02" dataInizio="2016-01-04" dataFineAffittoRamo="2019-12-31">
+    <co:DatorePrecedente codiceFiscale="" denominazione="">
+      <co:Sede>
+        <co:Comune>G999</co:Comune>
+        <co:cap>59100</co:cap>
+        <co:Indirizzo>VIA PAOLINI, 6/7</co:Indirizzo>
+        <co:telefono></co:telefono>
+      </co:Sede>
+      <co:Settore>82.99.99</co:Settore>
+    </co:DatorePrecedente>
+    <co:SedeLavoro>
+      <co:Comune>G999</co:Comune>
+      <co:cap>59100</co:cap>
+      <co:Indirizzo>GIUSEPPE PAOLINI 6</co:Indirizzo>
+      <co:e-mail></co:e-mail>
+      <co:Lavoratori>
+        <co:Contratto dataInizio="2011-09-01" lavoroInAgricoltura="NO" assunzioneObbligatoria="NO" codiceEntePrevidenziale="3009883441/01" patINAIL="0852107498" TipologiaContrattuale="A.01.00" socioLavoratore="NO" entePrevidenziale="01" lavInMobilita="NO" lavoroStagionale="NO">
+          <co:ccnl>042</co:ccnl>
+          <co:livelloInquadramento>5</co:livelloInquadramento>
+          <co:tipoOrario codice="P" oreSettimanaliMedie="30" />
+          <co:qualificaProfessionale>4.1.1.1.0.1</co:qualificaProfessionale>
+          <co:RetribuzioneCompenso>11200</co:RetribuzioneCompenso>
+        </co:Contratto>
+        <co:DatiLavoratore>
+          <co:cognome></co:cognome>
+          <co:nome></co:nome>
+          <co:codice-fiscale></co:codice-fiscale>
+          <co:comuneDomicilio>G999</co:comuneDomicilio>
+        </co:DatiLavoratore>
+      </co:Lavoratori>
+      <co:Lavoratori>
+        <co:Contratto dataInizio="1998-11-02" lavoroInAgricoltura="NO" assunzioneObbligatoria="NO" codiceEntePrevidenziale="3009883441/01" patINAIL="0852107498" TipologiaContrattuale="A.01.00" socioLavoratore="NO" entePrevidenziale="01" lavInMobilita="NO" lavoroStagionale="NO">
+          <co:ccnl>042</co:ccnl>
+          <co:livelloInquadramento>2</co:livelloInquadramento>
+          <co:tipoOrario codice="P" oreSettimanaliMedie="30" />
+          <co:qualificaProfessionale>3.3.1.2.1.14</co:qualificaProfessionale>
+          <co:RetribuzioneCompenso>22000</co:RetribuzioneCompenso>
+        </co:Contratto>
+        <co:DatiLavoratore>
+          <co:cognome></co:cognome>
+          <co:nome></co:nome>
+          <co:codice-fiscale></co:codice-fiscale>
+          <co:comuneDomicilio>G999</co:comuneDomicilio>
+        </co:DatiLavoratore>
+      </co:Lavoratori>
+      <co:Lavoratori>
+        <co:Contratto dataInizio="1981-01-02" lavoroInAgricoltura="NO" assunzioneObbligatoria="NO" codiceEntePrevidenziale="3009883441/01" patINAIL="0852107498" TipologiaContrattuale="A.01.00" socioLavoratore="NO" entePrevidenziale="01" lavInMobilita="NO" lavoroStagionale="NO">
+          <co:ccnl>042</co:ccnl>
+          <co:livelloInquadramento>2</co:livelloInquadramento>
+          <co:tipoOrario codice="P" oreSettimanaliMedie="39" />
+          <co:qualificaProfessionale>3.3.1.2.1.14</co:qualificaProfessionale>
+          <co:RetribuzioneCompenso>24000</co:RetribuzioneCompenso>
+        </co:Contratto>
+        <co:DatiLavoratore>
+          <co:cognome></co:cognome>
+          <co:nome></co:nome>
+          <co:codice-fiscale></co:codice-fiscale>
+          <co:comuneDomicilio>F572</co:comuneDomicilio>
+        </co:DatiLavoratore>
+      </co:Lavoratori>
+      <co:Lavoratori>
+        <co:Contratto dataInizio="2005-01-10" lavoroInAgricoltura="NO" assunzioneObbligatoria="NO" codiceEntePrevidenziale="3009883441/01" patINAIL="0852107498" TipologiaContrattuale="A.01.00" socioLavoratore="NO" entePrevidenziale="01" lavInMobilita="NO" lavoroStagionale="NO">
+          <co:ccnl>042</co:ccnl>
+          <co:livelloInquadramento>3</co:livelloInquadramento>
+          <co:tipoOrario codice="P" oreSettimanaliMedie="30" />
+          <co:qualificaProfessionale>3.3.1.2.1.14</co:qualificaProfessionale>
+          <co:RetribuzioneCompenso>6500</co:RetribuzioneCompenso>
+        </co:Contratto>
+        <co:DatiLavoratore>
+          <co:cognome></co:cognome>
+          <co:nome></co:nome>
+          <co:codice-fiscale></co:codice-fiscale>
+          <co:comuneDomicilio>G999</co:comuneDomicilio>
+        </co:DatiLavoratore>
+      </co:Lavoratori>
+    </co:SedeLavoro>
+  </co:TrasferimentoAzienda>
+</co:VarDatori>

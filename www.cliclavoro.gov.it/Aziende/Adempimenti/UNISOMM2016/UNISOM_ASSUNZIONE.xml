@@ -1,0 +1,69 @@
+﻿<co:UniSomm xmlns:co="http://servizi.lavoro.gov.it/unisomm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codiceComunicazione="0603716200089960" dataInvio="2016-02-05T10:11:24" e-mailDelegato="" protocollo="00089960" versione="CO160201R1">
+  <co:AgenziaSomministrazione agenziaestera="NO" codiceFiscale="" denominazione="" numeroIscrizioneAlbo="">
+    <co:SedeLavoro>
+      <co:Comune>D643</co:Comune>
+      <co:cap>71100</co:cap>
+      <co:Indirizzo>VIA GRAMSCI 103</co:Indirizzo>
+      <co:e-mail></co:e-mail>
+      <co:telefono></co:telefono>
+      <co:fax></co:fax>
+    </co:SedeLavoro>
+    <co:SedeLegale>
+      <co:Comune>F205</co:Comune>
+      <co:cap>20145</co:cap>
+      <co:Indirizzo>CORSO SEMPIONE, 39</co:Indirizzo>
+      <co:telefono></co:telefono>
+      <co:fax></co:fax>
+    </co:SedeLegale>
+    <co:RapportoAgenziaSomm TipologiaContrattuale="A.02.00" dataFineSomm="2016-02-12" dataInizioSomm="2016-02-08" entePrevidenziale="01" lavInMobilita="NO" numeroAgenziaSomm="51" numeroMatricola="161875" />
+  </co:AgenziaSomministrazione>
+  <co:Lavoratore>
+    <co:AnagraficaCompleta>
+      <co:cognome></co:cognome>
+      <co:nome></co:nome>
+      <co:codice-fiscale></co:codice-fiscale>
+      <co:cittadinanza>000</co:cittadinanza>
+      <co:sesso>M</co:sesso>
+      <co:nascita>
+        <co:comune>D643</co:comune>
+        <co:data>1988-11-02</co:data>
+      </co:nascita>
+    </co:AnagraficaCompleta>
+    <co:IndirizzoLavoratore>
+      <co:Comune>D643</co:Comune>
+      <co:cap>71100</co:cap>
+      <co:Indirizzo>VIA PAOLO BORSELLINO SC. C L.3</co:Indirizzo>
+    </co:IndirizzoLavoratore>
+    <co:LivelloIstruzione>40</co:LivelloIstruzione>
+  </co:Lavoratore>
+  <co:DittaUtilizzatrice codiceFiscale="" dataFineContrattoSomm="2016-02-12" dataInizioContrattoSomm="2016-02-08" denominazione="" numeroContrattoSomm="511600091">
+    <co:SedeLavoro>
+      <co:Comune>D643</co:Comune>
+      <co:cap>71100</co:cap>
+      <co:Indirizzo>C/O STABILIM. ALENIA Z.I. BORGO INCORONATA</co:Indirizzo>
+      <co:telefono></co:telefono>
+      <co:fax></co:fax>
+    </co:SedeLavoro>
+    <co:SedeLegale>
+      <co:Comune>F839</co:Comune>
+      <co:cap>80143</co:cap>
+      <co:Indirizzo>VIA G.PORZIO ISOLA F4 SNC</co:Indirizzo>
+      <co:e-mail></co:e-mail>
+      <co:telefono></co:telefono>
+      <co:fax></co:fax>
+    </co:SedeLegale>
+    <co:DittaUtilizzatriceEsteraOperanteInItalia>NO</co:DittaUtilizzatriceEsteraOperanteInItalia>
+    <co:Settore>56.29.10</co:Settore>
+    <co:PubblicaAmministrazione>NO</co:PubblicaAmministrazione>
+    <co:InizioContratto>
+      <co:Inizio assunzioneObbligatoria="NO" dataFineMissione="2016-02-12" dataInizioMissione="2016-02-08" descrizioneAttivita="ADDETTO MENSA" lavoroInAgricoltura="NO" rischioAsbestosiSilicosi="NO" voceTariffa_1="0211">
+        <co:PatINAIL>92310064</co:PatINAIL>
+        <co:tipoOrario codice="P" oreSettimanaliMedie="18" />
+        <co:qualificaProfessionale>5.2.2.2.3.4</co:qualificaProfessionale>
+        <co:ccnl>167</co:ccnl>
+        <co:livelloInquadramento>7</co:livelloInquadramento>
+      </co:Inizio>
+    </co:InizioContratto>
+  </co:DittaUtilizzatrice>
+  <co:TipoComunicazione>01</co:TipoComunicazione>
+</co:UniSomm>

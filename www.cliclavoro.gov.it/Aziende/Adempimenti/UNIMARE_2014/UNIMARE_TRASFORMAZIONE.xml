@@ -1,0 +1,42 @@
+<mare:UniMare xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mare="http://servizi.lavoro.gov.it/unimare" codiceComunicazione="0000000000000000" dataInvio="2013-04-10T10:04:51" e-mailDelegato="prova@prova.com" assunzioneForzaMaggiore="NO" versione="CO140110" protocollo="00000000">
+	<mare:DatoreLavoro codiceFiscale="10000000009" denominazione="armatore demo">
+		<mare:SedeLegale>
+			<mare:Comune>D969</mare:Comune>
+			<mare:cap>16100</mare:cap>
+			<mare:Indirizzo>Corso Torino 15</mare:Indirizzo>
+			<mare:telefono>01234567</mare:telefono>
+			<mare:e-mail>mail@mail.it</mare:e-mail>
+		</mare:SedeLegale>
+		<mare:Nave ClassificazioneNave="2" TipoNave="06" Internazionale="NO" StazzaMin5Ton="NO" DenominazioneNave="Seconda Nave" NumeroIscrizioneNave="9876543210" NumeroIMO="0000000" LuogoIscrizioneNave="159" />
+		<mare:Settore>50.20.00</mare:Settore>
+		<mare:RapportoATerraComandata>NO</mare:RapportoATerraComandata>
+	</mare:DatoreLavoro>
+	<mare:Lavoratore>
+		<mare:AnagraficaCompleta>
+			<mare:codice-fiscale>VRDLGU70S11A251Q</mare:codice-fiscale>
+			<mare:cognome>Verdi</mare:cognome>
+			<mare:nome>Luigi</mare:nome>
+			<mare:cittadinanza>000</mare:cittadinanza>
+			<mare:sesso>M</mare:sesso>
+			<mare:nascita>
+				<mare:data>1970-11-11</mare:data>
+				<mare:comune>A251</mare:comune>
+			</mare:nascita>
+		</mare:AnagraficaCompleta>
+		<mare:IndirizzoLavoratore>
+			<mare:Comune>A366</mare:Comune>
+			<mare:cap>60011</mare:cap>
+			<mare:Indirizzo>Via Roma 1</mare:Indirizzo>
+		</mare:IndirizzoLavoratore>
+		<mare:CategoriaIscrizione>4</mare:CategoriaIscrizione>
+		<mare:numeroMatricola>000000</mare:numeroMatricola>
+		<mare:LuogoMatricola>000</mare:LuogoMatricola>
+		<mare:LivelloIstruzione>30</mare:LivelloIstruzione>
+	</mare:Lavoratore>
+	<mare:Trasformazione dataTrasformazione="2013-04-10" codiceTrasformazioneMAR="TS">
+		<mare:Contratto livelloInquadramento="6" ccnl="057" socioLavoratore="NO" entePrevidenzialeMAR="31" ContrattoVerbale="SI" LuogoStipulaContratto="0006" enteAssicurativo="02" TipologiaContrattualeMAR="M.02.00" dataInizio="2013-01-03" codiceEntePrevidenziale="00000000000000000000" qualificaProfessionaleMAR="7.4.5.1.0.15" RetribuzioneCompenso="10000" PATenteAssicurativo="1234567890">
+		</mare:Contratto>
+		<mare:NavePrecedente ClassificazioneNave="2" TipoNave="05" Internazionale="SI" StazzaMin5Ton="NO" DenominazioneNave="Esempio Nave" NumeroIscrizioneNave="0123abc" NumeroIMO="1234567" LuogoIscrizioneNave="010" />
+	</mare:Trasformazione>
+	<mare:TipoComunicazione>01</mare:TipoComunicazione>
+</mare:UniMare>

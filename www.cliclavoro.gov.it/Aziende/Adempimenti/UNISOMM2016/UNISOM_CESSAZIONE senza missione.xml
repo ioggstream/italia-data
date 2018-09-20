@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<co:UniSomm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co="http://servizi.lavoro.gov.it/unisomm" dataInvio="2013-01-15T09:24:55" codiceComunicazione="0000000000000000" e-mailDelegato="prova@prova.it" versione="CO130110R1" protocollo="00000000">
+	<co:AgenziaSomministrazione codiceFiscale="70000000003" numeroIscrizioneAlbo="000000000000/00/0000" denominazione="Agenzia" agenziaestera="NO">
+		<co:SedeLavoro>
+			<co:Comune>A827</co:Comune>
+			<co:cap>12021</co:cap>
+			<co:Indirizzo>Via Bari</co:Indirizzo>
+			<co:telefono>42343</co:telefono>
+		</co:SedeLavoro>
+		<co:SedeLegale>
+			<co:Comune>B519</co:Comune>
+			<co:cap>86100</co:cap>
+			<co:Indirizzo>Via Venezia</co:Indirizzo>
+			<co:telefono>423423</co:telefono>
+			<co:fax>4324234</co:fax>
+		</co:SedeLegale>
+		<co:RapportoAgenziaSomm codiceEntePrevidenziale="11111111111111111111" dataInizioSomm="2012-12-05" entePrevidenziale="01" TipologiaContrattuale="A.01.00" lavInMobilita="SI" numeroMatricola="1111111111" numeroAgenziaSomm="11222222222" indennitaDisponibilita="1" />
+	</co:AgenziaSomministrazione>
+	<co:Lavoratore>
+		<co:AnagraficaCompleta>
+			<co:cognome>cognome</co:cognome>
+			<co:nome>nome</co:nome>
+			<co:codice-fiscale>CGNNMO87S11Z907W</co:codice-fiscale>
+			<co:cittadinanza>203</co:cittadinanza>
+			<co:sesso>M</co:sesso>
+			<co:nascita>
+				<co:comune>Z907</co:comune>
+				<co:data>1987-11-11</co:data>
+			</co:nascita>
+		</co:AnagraficaCompleta>
+		<co:IndirizzoLavoratore>
+			<co:Comune>A827</co:Comune>
+			<co:cap>07040</co:cap>
+			<co:Indirizzo>Via Roma</co:Indirizzo>
+		</co:IndirizzoLavoratore>
+		<co:LivelloIstruzione>30</co:LivelloIstruzione>
+	</co:Lavoratore>
+	<co:DatiVariazione codiceVariazione="4.02">
+		<co:DatiCessazione codiceCausa="LC" dataCessazione="2013-01-05" />
+	</co:DatiVariazione>
+	<co:TipoComunicazione>01</co:TipoComunicazione>
+</co:UniSomm>
